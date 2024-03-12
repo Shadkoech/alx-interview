@@ -6,5 +6,5 @@ This repository contains projects and exercises that model technical tests. Thes
 The Projects handled are in the following folders:
 
 - [0x00-pascal_triangle](0x00-pascal_triangle)
-
+- [0x01-lockboxes](0x01-lockboxes)
 
