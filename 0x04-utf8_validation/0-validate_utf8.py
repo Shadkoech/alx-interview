@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module that validates UTF-8 encoding"""
+Module that validates UTF-8 encoding """
 
 
 def validUTF8(data):
