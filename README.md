@@ -10,3 +10,4 @@ The Projects handled are in the following folders:
 3. [0x02-minimum_operations](0x02-minimum_operations)
 4. [0-stats.py](0-stats.py)
 5. [0x04-utf8_validation](0x04-utf8_validation)
+6. [0x05-nqueens](0x05-nqueens)
