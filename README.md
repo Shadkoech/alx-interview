@@ -11,4 +11,4 @@ The Projects handled are in the following folders:
 4. [0-stats.py](0-stats.py)
 5. [0x04-utf8_validation](0x04-utf8_validation)
 6. [0x05-nqueens](0x05-nqueens)
-7. [0-starwars_characters.js](0-starwars_characters.js)
+7. [0x06-starwars_api](0x06-starwars_api)
