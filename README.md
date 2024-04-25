@@ -12,3 +12,4 @@ The Projects handled are in the following folders:
 5. [0x04-utf8_validation](0x04-utf8_validation)
 6. [0x05-nqueens](0x05-nqueens)
 7. [0x06-starwars_api](0x06-starwars_api)
+8. [0x07. Rotate 2D Matrix](0x07. Rotate 2D Matrix)
