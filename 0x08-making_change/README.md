@@ -16,7 +16,7 @@ This problem showcases the use of greedy algorithms to swiftly arrive at solutio
 
 ## Concepts Needed
 * Greedy Algorithms
-Greedy algorithms are a class of algorithms that make locally optimal choices at each stage with the hope of finding a global optimum. In other words, at each step, a greedy algorithm selects the best available option without considering the consequences of that choice on future steps.
+- Greedy algorithms are a class of algorithms that make locally optimal choices at each stage with the hope of finding a global optimum. In other words, at each step, a greedy algorithm selects the best available option without considering the consequences of that choice on future steps.
 
 * Dynamic Programming
 * Algorithmic Complexity
