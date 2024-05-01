@@ -16,16 +16,19 @@ This problem showcases the use of greedy algorithms to swiftly arrive at solutio
 
 ## Concepts Needed
 * Greedy Algorithms
+Greedy algorithms are a class of algorithms that make locally optimal choices at each stage with the hope of finding a global optimum. In other words, at each step, a greedy algorithm selects the best available option without considering the consequences of that choice on future steps.
+
 * Dynamic Programming
 * Algorithmic Complexity
 * Problem-Solving Strategies
 * Python Programming
 
-## Objectives
-- Implement a solution to the coin change problem using both greedy algorithms and dynamic programming.
-- Understand the principles behind greedy algorithms and dynamic programming.
-- Analyze the trade-offs between efficiency and optimality in algorithmic solutions.
-- Enhance problem-solving skills by tackling real-world challenges in a structured manner.
+## Approach
+- Problem:
+Minimize the number of coins needed to make change for a given amount.
+
+- Greedy Approach:
+Always choose the largest coin denomination that does not exceed the remaining amount.
 
 ## Task
 Files:
