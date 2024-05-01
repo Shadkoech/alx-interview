@@ -13,3 +13,4 @@ The Projects handled are in the following folders:
 6. [0x05-nqueens](0x05-nqueens)
 7. [0x06-starwars_api](0x06-starwars_api)
 8. [0x07-rotate_2d_matrix](0x07-rotate_2d_matrix)
+9. [0x08-making_change](0x08-making_change)
