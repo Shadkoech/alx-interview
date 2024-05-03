@@ -11,7 +11,10 @@ def makeChange(coins, total):
     Returns:
         int: Fewest number of coins needed to meet the total amount
             -1 if the total cannot be met by the available coins """
-
+    
+    if total <= 0:
+        return 0
+    
     coins.sort(reverse=True)  # Sort denominations in descending order
 
     coins_used = 0
