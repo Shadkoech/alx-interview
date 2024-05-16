@@ -38,7 +38,7 @@ They play x rounds of the game, where n may be different for each round. Assumin
 
 
 ### Example:
-x = 3, nums = [4, 5, 1]
+`x = 3, nums = [4, 5, 1]`
 
 
 First round: 4
