@@ -2,25 +2,20 @@
 """Module with that determines the prime numbers within a given range"""
 
 
-def is_prime(num):
-    """function Checking if a number is prime.
+def is_prime(n):
+    """function Checking if a number is prime
     Args:
-        num (int): The number to check.
-    Returns:
-        bool: True if the number is prime, False otherwise.
+        n (int): upper boundary of range. lower boundary is always 1
     """
-    if num <= 1:
-        return False
-    if num <= 3:
-        return True
-    if num % 2 == 0 or num % 3 == 0:
-        return False
-    i = 5
-    while i * i <= num:
-        if num % i == 0 or num % (i + 2) == 0:
-            return False
-        i += 6
-    return True
+
+    primeNums = []
+    filtered = [True] * (n + 1)
+    for prime in range(2, n + 1):
+        if (filtered[prime]):
+            primeNums.append(prime)
+            for i in range(prime, n + 1, prime):
+                filtered[i] = False
+    return primeNums
 
 
 def isWinner(x, nums):
