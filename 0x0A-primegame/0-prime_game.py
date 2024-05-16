@@ -9,10 +9,15 @@ def is_prime(n):
     """
 
     primeNums = []
+
+    # List to track if each number is prime or not
     filtered = [True] * (n + 1)
+    # Loop over numbers from 2 to n
     for prime in range(2, n + 1):
         if (filtered[prime]):
             primeNums.append(prime)
+
+            # Mark all multiples of the current prime as not prime
             for i in range(prime, n + 1, prime):
                 filtered[i] = False
     return primeNums
@@ -24,21 +29,19 @@ def isWinner(x, nums):
         x (num) = The number of rounds
         nums (list)= array of n for each round
     Returns:
-        str: ame of the player that won the most rounds or None"""
+        str: name of player that won the most rounds or None"""
+
+    if x is None or nums is None or x == 0 or nums == []:
+        return None
 
     maria_wins = 0
     ben_wins = 0
 
-    for n in nums:
-        primes_remaining = n + 1
+    for i in range(x):
+        primeNums = is_prime(nums[i])
 
-        # Count prime numbers remaining
-        for i in range(2, n + 1):
-            if is_prime(i):
-                primes_remaining -= 1
-
-        # Determine the winner of the round
-        if primes_remaining % 2 == 0:
+        # Determine the winner of the round based on count of prime numbers
+        if len(primeNums) % 2 == 0:
             ben_wins += 1
         else:
             maria_wins += 1
